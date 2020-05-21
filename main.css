@@ -129,7 +129,7 @@ button:hover {
     text-decoration: none;
     margin: 5px 5px;
     border-radius: 50%;
-    
+    border: 2px solid #ff9;
   }
 
   .fab:hover {
@@ -169,7 +169,7 @@ button:hover {
     border-radius: 50%;
     color: #ff9;
     opacity: .7;
-
+border: 2px solid #ff9;
   }
 
   .fa-phone:hover {
@@ -194,7 +194,9 @@ button:hover {
     margin: 5px 5px;
     border-radius: 50%;
     color: #ff9;
-    opacity: .7;}
+    opacity: .7;
+    border: 2px solid #ff9;
+    }
 
     .fa-envelope:hover{
       opacity: .8;
