@@ -51,12 +51,12 @@ justify-content:space-between;
 h1 {
 
  top: 0;
-  background-color: rgba(102, 0, 102, .4);
-	color: #daa520;
-	text-align: center;
-	font-size: 6em;
-	font-family: 'Comic Sans MS';
-	opacity: .9;
+   background-color: rgba(102, 0, 102, .4);
+   color: #ff9;
+   text-align: center;
+   font-size: 6em;
+   font-family: 'Norican', cursive;
+   opacity: .9;
 }
 body {
   
@@ -112,3 +112,90 @@ button:hover {
   
 
 }
+ .social{
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    
+  }
+  .fab {
+     
+    padding: 15px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    
+  }
+
+  .fab:hover {
+    opacity: 0.8;
+  }
+
+  .fa-instagram{
+   
+    background: #909;
+    color: #ff9;
+    opacity: .7;
+ 
+  }
+  .fa-facebook-f {
+    background: #f39;
+    color: #ff9;
+    opacity: .7;
+
+
+  }
+  .fa-whatsapp {
+    background: #909;
+    color: #ff9;
+    opacity: .7;
+
+    
+  }
+
+  .fa-phone{
+    background: #f39;
+    padding: 15px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    color: #ff9;
+    opacity: .7;
+
+  }
+
+  .fa-phone:hover {
+    opacity: 0.8;
+
+  }
+
+  .fa-facebook-messenger {
+    background: #909;
+    color: #ff9;
+    opacity: .7;
+
+
+  }
+
+  .fa-envelope{background: #f39;
+    padding: 15px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    color: #ff9;
+    opacity: .7;}
+
+    .fa-envelope:hover{
+      opacity: .8;
+    }
